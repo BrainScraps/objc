@@ -11,40 +11,12 @@
 
 @interface Car : NSObject
 
-//Accessors
-- (BOOL)isRunning;
--(void)setRunning:(BOOL)running;
-- (NSString *)model;
-- (void)setModel:(NSString *)model;
+@property (copy) NSString *model;
+@property (readonly) double odometer;
 
-//Calculated values
-- (double)maximumSpeed;
-- (double)maximumSpeedUsingLocale:(NSLocale *)locale;
-
-//Action methods
 - (void)startEngine;
-- (void)driveForDistance:(double)theDistance;
-- (void)driveFromOrigin:(id)theOrigin toDestination:(id)thDestination;
-- (void)turnByAngle:(double)theAngle;
-
-//error handling methods
-- (BOOL)loadPassenger:(id)aPassenger error:(NSError **)error;
-
-//constructor methods
--(id)initWithModel:(NSString *)aModel;
-- (id)initWithModel:(NSString *)aModel mileage:(double)theMileage;
-
-//comparison methods
-- (BOOL)isEqualToCar:(Car *)anotherCar;
-- (Car *)fasterCar:(Car *)anotherCar;
-- (Car *)slowerCar:(Car *)anotherCar;
-
-//Factory methods
-+ (Car *)car;
-+ (Car *)carWithModel:(NSString *)aModel;
-+ (Car *)carWithModel:(NSString *)aModel mileage:(double)theMileage;
-
-//Singleton methods
-+ (Car *)sharedCar;
+- (void)drive;
+- (void)turnLeft;
+- (void)turnRight;
 
 @end

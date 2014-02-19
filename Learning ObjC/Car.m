@@ -7,51 +7,21 @@
 //
 
 #import "Car.h"
-static NSString *_defaultModel;
 
-@implementation Car {
-    double _odometer;
-    
-}
-/*
-- (void)startEngine {
-    _running = YES;
-}
-
-- (void)stopEngine {
-    _running = NO;
-}
-
-+ (void)setDefaultModel:(NSString *)aModel {
-    _defaultModel = [aModel copy];
-}
-
-+ (void)initialize {
-    if (self == [Car class]) {
-        _defaultModel = @"Nissan Versa";
-    }
-}
+@implementation Car
 
 @synthesize model = _model;
-@synthesize running = _running;
 
+- (void)startEngine {
+    NSLog(@"Starting the %@'s engine", _model);
+}
 - (void)drive {
-    NSLog(@"Driving a %@. Vroooom!", self.model);
-
+    NSLog(@"The %@ is now driving", _model);
 }
-
-- (id)initWithModel:(NSString *)aModel {
-    self = [super init];
-    if (self) {
-        // any custome setup work goes here.
-        _model = [aModel copy];
-        _odometer = 0;
-    }
-    return self;
+- (void)turnLeft {
+    NSLog(@"The %@ is turning left", _model);
 }
-
-- (id)init {
-    return [self initWithModel:_defaultModel];
+- (void)turnRight {
+    NSLog(@"The %@ is turning right", _model);
 }
- */
 @end

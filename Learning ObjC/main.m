@@ -9,7 +9,7 @@
 // main.m
 #import <Foundation/Foundation.h>
 #import "Car.h"
-#import "Bicycle.h"
+#import "Car+Maintenance.h"
 
 NSString *getRandomMake(NSArray *makes) {
     int maximum = (int)[makes count];
@@ -19,11 +19,23 @@ NSString *getRandomMake(NSArray *makes) {
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Bicycle *bike = [[Bicycle alloc] init];
-        [bike startPedaling];
-        [bike signalLeftTurn];
-        [bike signalStop];
-        [bike lockToStructure:nil];
+        Car *porsche = [[Car alloc] init];
+        porsche.model = @"Porsche 911 Turbo";
+        Car *ford = [[Car alloc] init];
+        ford.model = @"Ford F-150";
+        
+        [porsche startEngine];
+        [porsche drive];
+        [porsche turnLeft];
+        [ford turnRight];
+        [porsche turnRight];
+        
+        if ([porsche needsOilChange]) {
+            [porsche changeOil];
+        }
+        [porsche rotateTires];
+        [porsche jumpBatteryUsingCar:ford];
+        
         }
     return 0;
 }

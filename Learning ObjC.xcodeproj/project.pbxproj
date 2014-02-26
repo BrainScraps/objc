@@ -12,6 +12,7 @@
 		6A49580118B1EA5E0099CB33 /* Learning_ObjC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A49580018B1EA5E0099CB33 /* Learning_ObjC.1 */; };
 		6A49580918B1FA3A0099CB33 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A49580818B1FA3A0099CB33 /* Car.m */; };
 		6A49580C18B35A430099CB33 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A49580B18B35A430099CB33 /* Person.m */; };
+		6A52E79518BDE237005B5DE4 /* Car+Maintenance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A52E79418BDE237005B5DE4 /* Car+Maintenance.m */; };
 		6A8E5D8B18B4890F009A617A /* Bicycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8E5D8A18B4890F009A617A /* Bicycle.m */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,8 @@
 		6A49580818B1FA3A0099CB33 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		6A49580A18B35A430099CB33 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		6A49580B18B35A430099CB33 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		6A52E79318BDE237005B5DE4 /* Car+Maintenance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Car+Maintenance.h"; sourceTree = "<group>"; };
+		6A52E79418BDE237005B5DE4 /* Car+Maintenance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Car+Maintenance.m"; sourceTree = "<group>"; };
 		6A8E5D8818B48817009A617A /* StreetLegal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StreetLegal.h; sourceTree = "<group>"; };
 		6A8E5D8918B4890F009A617A /* Bicycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bicycle.h; sourceTree = "<group>"; };
 		6A8E5D8A18B4890F009A617A /* Bicycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bicycle.m; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				6A49580A18B35A430099CB33 /* Person.h */,
 				6A49580B18B35A430099CB33 /* Person.m */,
 				6A49580818B1FA3A0099CB33 /* Car.m */,
+				6A52E79318BDE237005B5DE4 /* Car+Maintenance.h */,
+				6A52E79418BDE237005B5DE4 /* Car+Maintenance.m */,
 				6A49580018B1EA5E0099CB33 /* Learning_ObjC.1 */,
 				6A4957FE18B1EA5E0099CB33 /* Supporting Files */,
 			);
@@ -157,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A49580C18B35A430099CB33 /* Person.m in Sources */,
+				6A52E79518BDE237005B5DE4 /* Car+Maintenance.m in Sources */,
 				6A49580918B1FA3A0099CB33 /* Car.m in Sources */,
 				6A4957FD18B1EA5E0099CB33 /* main.m in Sources */,
 				6A8E5D8B18B4890F009A617A /* Bicycle.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "Car.h"
+#import "Car+Protected.h"
 
 @implementation Car
 
@@ -16,6 +17,7 @@
     NSLog(@"Starting the %@'s engine", _model);
 }
 - (void)drive {
+    [self prepareToDrive];
     NSLog(@"The %@ is now driving", _model);
 }
 - (void)turnLeft {

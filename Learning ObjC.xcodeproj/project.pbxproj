@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A36B23318CC3E44001D7796 /* Car+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A36B23218CC3E44001D7796 /* Car+Protected.m */; };
+		6A36B23618CC3FB0001D7796 /* Coupe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A36B23518CC3FB0001D7796 /* Coupe.m */; };
 		6A4957FA18B1EA5E0099CB33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4957F918B1EA5E0099CB33 /* Foundation.framework */; };
 		6A4957FD18B1EA5E0099CB33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4957FC18B1EA5E0099CB33 /* main.m */; };
 		6A49580118B1EA5E0099CB33 /* Learning_ObjC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A49580018B1EA5E0099CB33 /* Learning_ObjC.1 */; };
@@ -30,6 +32,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6A36B23118CC3E44001D7796 /* Car+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Car+Protected.h"; sourceTree = "<group>"; };
+		6A36B23218CC3E44001D7796 /* Car+Protected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Car+Protected.m"; sourceTree = "<group>"; };
+		6A36B23418CC3FB0001D7796 /* Coupe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coupe.h; sourceTree = "<group>"; };
+		6A36B23518CC3FB0001D7796 /* Coupe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coupe.m; sourceTree = "<group>"; };
 		6A4957F618B1EA5E0099CB33 /* Learning ObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Learning ObjC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4957F918B1EA5E0099CB33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A4957FC18B1EA5E0099CB33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				6A4957FC18B1EA5E0099CB33 /* main.m */,
+				6A36B23118CC3E44001D7796 /* Car+Protected.h */,
+				6A36B23218CC3E44001D7796 /* Car+Protected.m */,
 				6A49580718B1FA3A0099CB33 /* Car.h */,
 				6A8E5D8818B48817009A617A /* StreetLegal.h */,
 				6A8E5D8918B4890F009A617A /* Bicycle.h */,
@@ -94,6 +102,8 @@
 				6A49580A18B35A430099CB33 /* Person.h */,
 				6A49580B18B35A430099CB33 /* Person.m */,
 				6A49580818B1FA3A0099CB33 /* Car.m */,
+				6A36B23418CC3FB0001D7796 /* Coupe.h */,
+				6A36B23518CC3FB0001D7796 /* Coupe.m */,
 				6A52E79318BDE237005B5DE4 /* Car+Maintenance.h */,
 				6A52E79418BDE237005B5DE4 /* Car+Maintenance.m */,
 				6A49580018B1EA5E0099CB33 /* Learning_ObjC.1 */,
@@ -162,10 +172,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A49580C18B35A430099CB33 /* Person.m in Sources */,
+				6A36B23618CC3FB0001D7796 /* Coupe.m in Sources */,
 				6A52E79518BDE237005B5DE4 /* Car+Maintenance.m in Sources */,
 				6A49580918B1FA3A0099CB33 /* Car.m in Sources */,
 				6A4957FD18B1EA5E0099CB33 /* main.m in Sources */,
 				6A8E5D8B18B4890F009A617A /* Bicycle.m in Sources */,
+				6A36B23318CC3E44001D7796 /* Car+Protected.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
